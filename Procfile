@@ -1,0 +1,1 @@
+web: gunicorn belly-button.app:app
