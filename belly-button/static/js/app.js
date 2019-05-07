@@ -56,7 +56,8 @@ function buildCharts(sample) {
     var layout = {
       height: 500,
       width: 1400,
-      showlegend: false
+      showlegend: false,
+      title: "Bubble Plot For Selected Sample"
     }
     Plotly.newPlot('bubble', trace1, layout);
 
@@ -71,7 +72,8 @@ function buildCharts(sample) {
       type: "pie"
     }]
     var layout = {
-      showlegend: true
+      showlegend: true,
+      title: "Pie Chart For Selected Sample"
     }
     Plotly.newPlot('pie', piedata, layout);
 
